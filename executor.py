@@ -31,11 +31,6 @@ app = Flask(__name__)
         
 x = None
 
-@app.route('/')
-#@auth.login_required
-def helloworld():
-    return "Hello, !"
-
 
 @app.route('/executor')
 #@auth.login_required
